@@ -1,0 +1,1000 @@
+ls
+echo $[3+8]
+echo $[ 3+8 ]
+echo $[ 3+8 ]
+echo $[ 1 || 1 ]
+echo $[ 1 || 0 ]
+echo $[ 1 || 0 
+var=10
+let var+=5
+echo $var
+ echo $[10#8+191]
+echo -e "\n\n\n"
+echo  "\n\n\n"
+wpd
+ls
+pwd
+vi 07read.sh
+pwd
+ls
+chmod u+x 07read.sh 
+./07read.sh 
+ls
+vi 07read.sh 
+ls
+cp 07read.sh 08read.sh
+vi 08read.sh 
+ls
+./08read.sh 
+pwd
+cd
+ls
+cd wbmshell
+ls
+cd myshell
+ls
+cd 02/
+ls
+./02param.sh 
+pwd
+ls
+cd 03param.sh 
+ls
+pwd
+ls
+./04param.sh 
+ls
+cd
+cd
+ls
+cd day03
+ls
+cat 06shift.sh | more
+cat 06shift.sh | more 
+           
+ls
+cat 01errsh.sh 02sh.sh 04find.sh 
+cat 01errsh.sh 02sh.sh 04find.sh > 2.log
+cat 2.log
+who
+who | tee -a 1.out
+cat 1.out
+who > 2.log
+who >> 2.log
+who 1 >> 2.log
+who  > 2.log 2>&1
+whodd  > 2.log 2>&1
+vi 2.log
+whodd  
+whodd  > 2.log 
+whodd  > 2.log 2>&1
+pwd
+ls
+mkdir testcat
+cd testcat
+ls
+pwd
+touch file1.txt file2.txt 
+vi file1.txt
+ls
+vi file2.txt
+ls
+pwd
+ls
+cat file1.txt file2.txt file3.txt > out.txt 2>&1 
+vi out.txt
+ls
+cat file1.txt file2.txt file3.txt > out.txt 2>&1 
+ls
+pwd
+ls
+pwd
+ls
+pwd
+ls
+cd
+ls
+cd day03
+ls
+./02sh.sh
+pwd
+ls
+exec ./02sh.sh
+exec ./02sh.sh
+cd day03
+ls
+exec ./02sh.sh
+ls
+pwd
+ls
+man dup
+ls
+pwd
+ls
+ls
+cd day03
+ls
+vi 08shfd.sh
+ls
+chmod 755 08shfd.sh 
+ls
+vi name.txt
+ls
+./08shfd.sh 
+vi 08shfd.sh 
+pwd
+ls
+dir
+ls
+pwd
+ls
+dir
+ls
+cat 2.c
+:q!
+ls
+pwd
+ls
+ls
+pwd
+cd
+ls
+pwd
+pwd
+ls
+mkdir day03
+pwd
+ls
+cd day03
+ls
+pwd
+ls
+pwd
+ls
+ls
+touch myabc.c
+pwd
+ls
+ls -lt
+pwd
+ls
+man chown
+info chown
+ls
+man chown
+1
+ls
+pwd
+ls -lt
+su - root
+ls
+pwd
+ls
+touch 2.c
+ls -lt
+644
+touch 3.c
+ls -lt
+mkdir abc
+ls -lt
+umask
+pwd
+ls -lt
+vi /etc/profile
+ls
+cd
+\l
+ls
+ls -a
+vi .bash_profile 
+vi .bash_profile 
+pwd
+ls
+source .bash_profile 
+pwd
+ls
+cd day03
+ls
+touch 4.c
+ls -lt
+cd
+vi .bash_profile 
+. ./.bash_profile 
+. ./.bash_profile 
+pwd
+cd ~
+pwd
+man ls
+ls
+ls -l
+ls -lh
+ls -lhm
+man ls
+ls
+ls -d
+ls -lt
+ls -lda
+pwd
+ls
+ls 
+pwd
+ls
+pwd
+cd
+ls
+cd day03
+ls
+pwd
+ls
+rm abc
+pwd
+ls
+ls -lt
+cd abc
+ls
+cp ../../day02.tar.gz .
+pwd
+ls
+mv day02.tar.gz ..
+pwd
+ls
+ls
+pwd
+ls
+cd ..
+ls
+pwd
+ls -lt
+ln day02.tar.gz ylj.tar.gz
+ls -lt
+ln -s day02.tar.gz rlj.tar.gz
+ls -lt
+tar tvf rlj.tar.gz 
+ls -lt
+tar tvf day02.tar.gz
+ln -s day02.tar.gz rlj.tar.gz
+pwd
+cd
+ls
+ls -a
+vi .bash_profile 
+vi /etc/profile
+ls
+pwd
+ls
+cd
+pwd
+/bin/
+ls
+pwd
+cd /bin
+ls
+echo $SHELL
+pwd
+cd
+ls
+cd day03
+ls
+vi 01sh.sh
+pwd
+ls
+ls -lt
+pwd
+ls
+chmod u+x 01sh.sh
+pwd
+ls
+echo $PATH
+./01sh.sh
+pwd
+ls
+pwd
+ls
+chmod 755 01sh.sh
+ls -lt
+wd
+pwd
+lks
+./01.sh
+pwd
+ls
+./01sh.sh 
+pwd
+vi 01sh.sh 
+./01sh.sh 
+pwd
+ls
+cp 01sh.sh 02sh.sh
+mv 01sh.sh 01errsh.sh
+pwd
+ls
+vi 02sh.sh
+./01sh
+./02sh.sh 
+vi 02sh.sh
+./02sh.sh 
+pwd
+ls
+vi 02sh.sh
+l;l
+ls -l
+ll
+ll ls -l
+alias
+alias ll = ¡®ls -alh¡
+ls
+pwd
+ls
+alias
+alias ll='ls -lah'
+ll
+alias ll='ls -l --color=tty'
+pwd
+ls
+ll
+alias ll='ls -l --color=tty'
+pwd
+ls
+ls -a
+cd
+ls -a
+vi .bashshrc
+ls
+ls -a
+vi .bashrc 
+ls
+pwd
+lks
+pwd
+ls
+pwd
+ls lib
+pwd
+pwd
+ls
+pwd
+ls lib
+ls wbmipc
+vi myfile
+ls
+vi myfile 
+pwd
+ls
+cat myfile
+ls `cat myfile` 
+ls 'cat myfile'
+ls "cat myfile"
+ls `cat myfile` 
+pwd
+ls
+pwd
+pwd
+ls
+nohup tar zcvf day02-2.tar.gz day02  &
+ tar zcvf day02-2.tar.gz day02  
+nohup  tar zcvf day02-2.tar.gz day02  &
+pwd
+top
+ps -ef | grep wbm01
+ tar zcvf day02-2.tar.gz day02  &
+ tar zcvf day02-2.tar.gz day02 ¡  &
+ tar zcvf day02-2.tar.gz day02 ¡  &
+ls
+pwd
+cd wbms
+cd wbmsocket/
+ls
+pwd
+pwd
+cd 01socket/
+ls
+pwd
+touch dm01_baseipstruct.c
+m
+pwd
+ls
+make
+./dm01_baseipstruct 
+make
+./dm01_baseipstruct 
+make
+./dm01_baseipstruct 
+make
+./dm01_baseipstruct 
+make
+./dm01_baseipstruct 
+ 
+man 
+ls
+make
+make
+make
+make
+make
+pwd
+ls
+./dm01_baseipstruct 
+man 2 socket
+man 5 protocols
+man socket
+man listen
+man bind
+man 2 bind
+accept
+man 2 accept
+man fgets
+pwd
+ls
+pwd
+pwd
+pwd
+ls
+pw
+dls
+cd ..
+ls
+cd 01socket/
+ls
+touch dm02_srv.c
+touch dm03_clt.c
+make
+make
+make
+make
+pwd
+ls
+man 2 socket
+man 2 bind
+man 7 ip
+man 2 bind
+make
+make
+man 2 host
+man 2 htons
+man 2 htons
+man  htons
+make
+make
+make
+pwd
+ls
+make clean
+make
+pwd
+make
+make
+make
+make
+pwd
+ls
+man 2 listen
+ls
+accept
+man 2 accept
+make
+make
+man 2 read
+man fputs
+man 2 write
+make
+make
+make
+make
+make
+man 2 connet
+man 2 connect
+make
+make
+make clean
+make
+ls
+pwd
+ls
+pwd
+ls
+cd wbmsocket/
+ls
+cd 01socket/
+ls
+./dm03_clt 
+pwd
+pwd
+ls
+make
+./dm03_clt 
+./dm03_clt 
+./dm03_clt 
+./dm03_clt 
+pwd
+ls
+./dm03_clt 
+./dm03_clt 
+ls
+cd wbmsocket/
+ls
+cd 02p2p/
+ls
+./p2pcli 
+pwd
+¡¢
+./p2pcli 
+pwd
+ls
+./p2pcli 
+make
+make
+./p2pcli 
+./p2pcli 
+./p2pcli 
+ps -u wbm01
+ps -aux | grep wbm01
+ps -ef | grep wbm01
+pwd
+ls
+pwd
+ls
+./p2pcli 
+ps -u wbm01
+ps -u wbm01
+./p2pcli 
+pwd
+ls
+pwd
+cd ..
+ls
+cd 03readnwriten/
+ls
+touch gethostlist.c
+make
+./gethostlist 
+make
+make clean
+make
+./gethostlist 
+make
+./gethostlist 
+cat /etc/hosts
+cat /etc/hosts
+make
+./gethostlist 
+gethostbyname
+man gethostbyname
+man inet_ntoa
+cat /etc/host.conf 
+cat /etc/host.conf
+vi /etc/host.conf 
+ls
+ls
+mv gethostlist.c gethostip.c
+ls
+pwd
+man 7 ip
+man htonl
+man inet_addr
+ls
+make
+pwd
+man 2 fgets
+man fgets
+man connect
+make
+make
+pwd
+ls
+cd wbmsocket/
+ls
+cd 01socket/
+make
+make
+make
+pwd
+ls
+./dm02_srv 
+make
+./dm02_srv 
+./dm02_srv 
+./dm02_srv 
+./dm02_srv 
+./dm02_srv 
+./dm02_srv 
+./dm02_srv 
+./dm02_srv 
+./dm02_srv 
+pwd
+./dm02_srv 
+pwd
+ipcs
+ps -u wbm01
+kill -9 19921
+pwd
+ps -u wbm01
+pwd
+ls
+./dm02_srv 
+./dm02_srv 
+pwd
+netstat
+pwd
+ls
+netstat -a | grep 8001
+netstat -a | grep 8001
+netstat -a | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+pwd
+ls
+pwd
+ls
+ps -u wbm01
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+netstat -an | grep 8001
+man 2 setsockopt
+pwd
+ls
+cd wbmsocket/
+ls
+cd 01socket/
+ls
+./sckserver 
+man 2 setsockopt
+man 7 ip
+netstat -an | grep 8001
+pwd
+ls
+./dm03_clt 
+netstat -na | grep 8089
+netstat -na | grep 8089
+ls
+ls
+pwd
+pwd
+cd
+ps -u wbm01
+ps -u wbm01
+pwd
+ls
+netstat -i
+netstat -in
+netstat -n
+netstat -r
+pwd
+ls
+pwd
+cd wbmsocket/
+ls
+cd 03readnwriten/
+ls
+pwd
+ls
+make
+pwd
+ls
+./server 
+man 2 recv
+ls
+pwd
+pwd
+cd ..
+cd
+ls
+cd wbmsocket/
+ls
+cd 04echo_SIGCHLD/
+ls
+vi echosrv.c 
+ls
+vi echosrv.c 
+ls
+ls -lt
+ls
+cd ..
+ls
+cd r
+make
+pwd
+pwd
+ls
+cd 03readnwriten/
+ls
+make
+pwd
+vi server.c
+pwd
+ls
+touch srvreadline.c cltreadline.c
+pwd
+ls
+pwd
+make
+make
+./srvreadline 
+ps -u wbm01
+owd
+ls
+./srvreadline 
+ls
+netstat -an | grep 8001
+netstat -an | grep 8001
+pwd
+ls
+dir
+ls
+pwd
+ls
+cd wbmsocket/
+ls
+cd 01socket/
+ls
+pwd
+ls
+pwd
+ls
+pwd
+pwd
+c
+dls
+ls
+pwd
+cpwd
+cd ..
+ls
+pwd
+cd 02p2p/
+ls
+pwd
+./make
+pwd
+ls
+make clean
+make
+./p2psrv 
+pwd
+./p2psrv 
+./p2psrv 
+./p2psrv 
+./p2psrv 
+./p2psrv 
+pwd
+ls
+./p2psrv 
+./p2psrv 
+pwd
+ls
+cd ..
+ls
+cd 03readnwriten/
+ls
+./client 
+ls
+pwd
+./cltreadline 
+man 2 getsockname
+man 2 gethostname
+gethostbyname
+gethostbyname
+man 2 gethostbyname
+man 2 gethostbyname
+man  gethostbyname
+ls
+cd day03
+ls
+mkdir mulu
+pwd
+ls
+test -d mulu
+echo $0
+echo $?
+cp 02sh.sh 09testmulu.sh
+vi 09testmulu.sh 
+./09testmulu.sh 
+vi 0
+./09testmulu.sh 
+./09testmulu.sh 
+vi 09testmulu.sh 
+pwd
+ls
+./09testmulu.sh 
+vi 09testmulu.sh 
+./09testmulu.sh 
+./09testmulu.sh 
+man test
+expr 10+10
+expr 10+10
+expr 10 + 10
+expr 10 + 10
+expr 10 + a
+expr 10 + 'a'
+expr 10 + 'a'
+vi 10iftest.sh
+chmod 775 10iftest.sh 
+./10iftest.sh 
+vi 10iftest.sh
+touch 11case.sh
+vi 11case.sh 
+ls
+chmod 775 11case.sh 
+./11
+./11case.sh 
+./11case.sh 
+./11case.sh 
+./11case.sh 
+cat 11case.sh 
+:q1
+vi 12for.sh
+ls
+chmod u+x 12for.sh 
+./12for.sh 
+vi 12for.sh 
+./12for.sh 
+pwd
+ls
+vi 12for.sh 
+vi myfile.txt
+ls
+./12for.sh 
+touch 13fornoin.sh
+vi 13fornoin.sh 
+pwd
+chmod 775 13fornoin.sh 
+./13fornoin.sh 
+./13fornoin.sh  aaa bbb cc
+cat 13fornoin.sh 
+pwd
+cat 13fornoin.sh 
+vi 13fornoin.sh 13fornoin_zhongdian.sh 
+ls
+cat /etc/profile
+vi /etc/profile
+ls
+pwd
+vi 13fornoin.sh 
+./13fornoin.sh 
+./13fornoin.sh aaa bbb ccc
+vi 13fornoin.sh 
+./13fornoin.sh aaa bb ccc
+vi 13fornoin.sh 
+./13fornoin.sh aaa bb ccc
+./13fornoin.sh aaa bb ccc
+vi 13fornoin.sh 
+pwd
+ls
+./08shfd.sh 
+vi 08shfd.sh 
+vi 13fornoin.sh 
+ls
+df
+df
+df | grep /dev/sda1
+df | grep /dev/sda1
+df | grep /dev/sda1
+df | grep /dev/sda1 | awk '{print $5}'
+df | grep /dev/sda1 | awk '{print $5}' | sed 's/%//g'
+man test
+ls
+vi 14while.sh
+chmod 775 14while.sh 
+./14while.sh 
+pwd
+ls
+vi 15while.sh
+chmod 775 15while.sh 
+pwd
+;s
+ls
+vi names.txt
+./15while.sh 
+pwd
+vi 15while.sh 
+./15while.sh 
+d
+;s
+ls
+vi 15while.sh 
+ls
+./15while.sh 
+pwd
+ls
+vi 16whilebreak.sh
+chmod 775 16whilebreak.sh 
+./16whilebreak.sh 
+vi 16whilebreak.sh 
+./16whilebreak.sh 
+vi 17whilecon.sh
+chmod 775 17whilecon.sh 
+./17whilecon.sh 
+./17whilecon.sh 
+pwd
+ls
+ls *.sh
+man find
+ls
+pwd
+cd ..
+ls
+find ./day03 -name "*.sh"
+find ./day03 -name "*.sh" -R
+find ./day03 -name "*.sh" -r
+find ./day03 -name "*.sh" */*/*
+find ./day03 -name "*.sh" */*
+find ./day03 -name "*.sh" */*
+find ./day03 -name "*.sh" -r */*/*
+find ./day03 -name "*.sh" -R */*/*
+find ./day03 -name "*.sh" 
+find . -name "[A-Z]*" ¨Cprint
+find . -name "[A-Z]*" ¨
+find . -name "[A-Z]*
+find . -name "[A-Z]*" 
+find ./day03 -name "*.sh" 
+find ./day03 -name "*.sh" | grep "13*"
+find ./day03 -name "*.sh" | grep "13"
+pwd
+ls
+cd day03
+ls
+grep "aaaaa" names.txt
+grep "aaa*" names.txt
+grep "aaa*" names.txt
+grep "aaa*" names.txt
+cat names.txt
+grep -n "aaa*" names.txt
+grep -v "aaa*" names.txt
+¡°if fi
+pwd
+ls
+cp /etc/passwd .
+cat passwd
+pwd
+awk -F":" '{print $1 "$3"}'
+awk -F":" '{print $1}'
+awk -F":" '{print $1}' ./passwd 
+awk -F":" '{print $1 "\t", $3}' ./passwd 
+awk -F":" '{print $1 "\t", $3}' ./passwd 
+vi 
+ls
+vi  ./passwd 
+ls
+awk -F":" '{print $1 "\t"}' ./passwd 
+awk -F":" '{print $1 "\t" ¡°  }' ./passwd 
+awk -F":" '£$${print $1}' ./passwd 
+awk -F":" '{print $1 "\t"}' ./passwd 
+awk -F":" '$3>500 {print $1 "\t"}' ./passwd 
+awk -F":" '$3>500 {print $1 "\t" $3}' ./passwd 
+ls
+cd
+ls
+vi .bash_history 
+ls
+pwd
+cp .bash_history  bash_history
+exit
+ls
+cd day03
+ls
+touch tmp.txt
+ls -lt
+chmod 111 tmp.txt
+ls -lt tmp.txt
+chmod 000 tmp.txt
+ls -lt tmp.txt
+echo $EUID
+exit

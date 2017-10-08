@@ -1,0 +1,40 @@
+#!/bin/bash
+echo "test use 1"
+test -w tmp.txt
+if [ $? -eq "0" ]; then
+        echo "success \n";
+else
+        echo "net success";
+fi
+echo $?
+echo "test use 2 [] begin"
+[ -w tmp.txt ]
+echo $?
+
+
+
+//重点
+
+#!/bin/bash
+#for_noin03.sh
+i=1
+for param 
+do
+        echo "param #$I is $param"
+        i=$i+1
+done 
+
+
+
+#!/bin/sh
+#until_mom 监控分区
+Part="/backup"
+Look_Out=`df | grep "$Part" | awk '{printf $5}' | sed 's/%//g' `
+echo $Look_Out;
+until [ "$Look_Out" -gt "90" ]
+do
+	echo -e "Filesystem $Part is nearly full " | mail root
+	Look_Out=`df | grep "$Part" | awk '{printf $5}' | sed 's/%//g' `
+	sleep 3600
+done
+
