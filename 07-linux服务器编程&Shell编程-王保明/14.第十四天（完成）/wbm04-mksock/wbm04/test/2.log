@@ -1,0 +1,3 @@
+	libmyadd.so => /home/test/lib/libmyadd.so (0x00002ab8d48e6000)
+	libc.so.6 => /lib64/libc.so.6 (0x0000003177400000)
+	/lib64/ld-linux-x86-64.so.2 (0x0000003177000000)

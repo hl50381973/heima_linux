@@ -1,0 +1,5 @@
+
+gcc -c myadd.c -o myadd.o
+
+ar rcs libmyadd.a myadd.o
+

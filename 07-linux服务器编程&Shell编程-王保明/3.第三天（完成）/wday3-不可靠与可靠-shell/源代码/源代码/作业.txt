@@ -1,0 +1,36 @@
+
+
+day01	
+	多进程测试框架
+	一个应用拉起另外一个应用 exec 需要传送环境变量
+	守护进程
+
+
+day02
+1、APP1 APP2
+发送带额外数据的信号
+	sigaction	sigqueue
+
+	//
+
+2、写一个APP
+	发SIGUSR1 信号，把SIGINT 设置成阻塞
+	发SIGUSR2 信号，把SIGINT 设置成非阻塞
+	测试测试现象
+
+//ctrl+c
+
+day03
+	把视频中测试的sh打包整理 
+
+
+	
+			
+		
+
+
+
+
+
+
+

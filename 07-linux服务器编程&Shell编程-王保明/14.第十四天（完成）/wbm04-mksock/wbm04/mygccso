@@ -1,0 +1,3 @@
+
+gcc -shared -fPIC -I./inc ./src/myadd.c -o libmyadd.so
+

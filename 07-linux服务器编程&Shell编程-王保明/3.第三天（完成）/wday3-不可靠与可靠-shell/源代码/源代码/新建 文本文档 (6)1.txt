@@ -1,0 +1,26 @@
+#!/bin/bash
+echo "test use 1"
+test -w tmp.txt
+if [ $? -eq "0" ]; then
+        echo "success \n";
+else
+        echo "net success";
+fi
+echo $?
+echo "test use 2 [] begin"
+[ -w tmp.txt ]
+echo $?
+
+
+
+//÷ÿµ„
+
+#!/bin/bash
+#for_noin03.sh
+i=1
+for param 
+do
+        echo "param #$I is $param"
+        i=$i+1
+done 
+

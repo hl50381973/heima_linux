@@ -1,0 +1,2 @@
+gcc -L. -I../inc  main.c -o  main.exe -lmyadd
+

@@ -1,0 +1,92 @@
+
+
+1 一个工程有1.c 2.c 3.c==src 
+	1.h 2.h 3.h ===>inc
+	 libsocket.so===>lib
+===》按照工程项目的方法，组织src和inc，去编译动态库和动态库测试程序
+
+2、连接动态库和静态库的方法是：-l**  lib**.so
+	常用技巧：把命令变成脚本
+			mygcc==>gcc 1.c -o 1.exe -lm
+			chmod u+x mygcc
+			chmod 775 mygcc
+
+	file filename.a查看文件的属性
+	nm filename	查看文件的函数描述。。。。符。。。
+	ctrl+insert  复制选择
+	shift+insert 粘贴
+
+	cp wmb02 wbm03
+	
+	通过写脚本编译了libmyadd.a myaddexe 
+	myaddexe生成以后，就可以脱离静态库。。。，这就是就静态库的思想啊。。。
+
+	传送文件经验：
+	如果从服务器上下载tar.gz 向服务器上传tar.gz 二进制传送方式
+	如果从服务器 传 下载 txt 文本方式
+
+3、动态库编写过程
+	nm *.so
+	nm *.so | grep "myadd"
+
+	gcc -shared -fPIC -I./inc ./src/myadd.c -o libmyadd.so
+
+	ldd myexe 可以查看应用程序连接的库（动态库和静态库）
+	动态库和静态库编译的时候，可以把动态库和静态库copy到gcc脚本的目录下，gcc能找到动态库和静态库
+
+	
+
+	终端用use+pwd登录上服务器上，服务器会为这个用户运行一个shell，。这个shell使用的配置文件
+	$(HOME)/.bash_profile    默认我们使用/bin/bash
+	echo $PATH echo $SHELL 
+	env查看环境变量的设置。。。。。。
+ 
+
+	修改shell运行的配置文件，我们需要重新运行配置文件，命令是：source .bash_profile . ./.bash_profile
+	如果你不在桌面用户下 ，，，，，执行source会出错。。。。。说找不到。。bash_profile
+	并让shell执行环境配置文件，环境重新生效
+	
+	任何目录下执行cd命令 都会转到$HOME
+
+
+静态库生成及测试：
+编码myccso脚本
+gcc -c -Wall -I./inc  ./src/myadd.c -o myadd.o
+ar rcs libmyadd.a myadd.o
+rm *.o
+mv libmyadd.a ./lib
+
+gcc  -Wall -g -I../inc -L../lib   main.c -o main –lmyadd
+
+动态库生成及测试：
+编写生成动态库gcc脚本
+gcc -Wall -g -shared -fPIC  -I./inc  ./src/myadd.c -o libmyadd.so
+mv libmyadd.so ./lib
+编写测试静态库gcc脚本
+gcc  -Wall -g -I../inc -L../lib   main.c -o main -lmyadd
+
+
+64环境下：exe lib 64bit
+64环境下：exe lib 32bit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+	
+
+
+
+	
